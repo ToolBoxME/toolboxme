@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- عنوان الصفحة -->
+  <title>ToolBox ME | أدوات رقمية مجانية بدون تنزيل</title>
+
+  <!-- وصف الموقع للبحث -->
+  <meta name="description" content="أدوات رقمية مجانية تساعدك على تحويل الملفات، تحرير النصوص، وضغط الصور بسهولة دون تنزيل برامج.">
+
+  <!-- الكلمات المفتاحية للموقع -->
+  <meta name="keywords" content="تحويل PDF إلى Word, ضغط الصور, تحويل صور إلى PDF, أدوات إلكترونية مجانية, حساب الكلمات, حاسبة إلكترونية">
+
+  <!-- السماح لمحركات البحث بفهرسة الموقع -->
+  <meta name="robots" content="index, follow">
+
+  <!-- الرابط الرسمي للموقع -->
+  <link rel="canonical" href="https://toolboxme.netlify.app/"> 
+
+  <!-- Open Graph Tags - لعرض جميل عند مشاركة الموقع على الفيسبوك أو تويتر -->
+  <meta property="og:title" content="أدوات رقمية مجانية | ToolBox ME">
+  <meta property="og:description" content="أدوات رقمية مجانية تساعدك على تحويل الملفات وتحرير النصوص بسهولة دون تنزيل برامج.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://toolboxme.netlify.app/"> 
+  <meta property="og:image" content="https://your-site-url.com/images/logo.png">  <!-- استبدل بالشعار إن وجد -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="أدوات رقمية مجانية | ToolBox ME">
+  <meta name="twitter:description" content="أدوات رقمية مجانية تساعدك على تحويل الملفات وتحرير النصوص بسهولة دون تنزيل برامج.">
+  <meta name="twitter:image" content="https://your-site-url.com/images/logo.png">  <!-- نفس الصورة -->
+
+  <!-- رابط الخطوط المستخدمة -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f4f4f4;    
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0D47A1;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      color: #0D47A1;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background-color: #FF6F00;
+      color: white;
+      padding: 0.6rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .tools {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .tools h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #0D47A1;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tool-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .tool-card img {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1rem;
+    }
+
+    .tool-card h3 {
+      margin: 1rem 0 0.5rem;
+    }
+
+    .tool-card p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header>
+    <div class="logo">ToolBox ME</div>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">PDF</a>
+      <a href="#">صور</a>
+      <a href="#">نصوص</a>
+      <a href="#">حسابات</a>
+      <a href="#">EN</a>
+    </nav>
+  </header>
+
+  <!-- القسم الرئيسي -->
+  <section class="hero">
+    <h1>أدوات رقمية مجانية لكل شيء</h1>
+    <p>استخدم أدواتنا السهلة والسريعة دون الحاجة إلى تنزيل برامج.</p>
+    <a href="#tools-section" class="btn">ابدأ الآن</a>
+  </section>
+
+  <!-- أدوات الموقع -->
+  <section id="tools-section" class="tools">
+    <h2>أهم الأدوات</h2>
+    <div class="tools-grid">
+
+      <!-- أداة PDF -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1763/1763661.png"  alt="تحويل PDF">
+        <h3>تحويل PDF</h3>
+        <p>حوّل ملفات PDF إلى Word، Excel، صور وأكثر.</p>
+        <a href="tools/extract-text.html" class="btn">استخدام الأداة</a>
+      </div>
+
+      <!-- أداة الصور -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/54/54642.png"  alt="تعديل صور">
+        <h3>تعديل الصور</h3>
+        <p>غيّر الحجم، اضغط الصور، أو أزل الخلفية بكل سهولة.</p>
+        <a href="#" class="btn">استخدام الأداة</a>
+      </div>
+
+      <!-- أداة النصوص -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1373/1373448.png"  alt="حساب الكلمات">
+        <h3>حساب الكلمات</h3>
+        <p>احسب عدد الكلمات والحروف في نصك بدقة.</p>
+        <a href="#" class="btn">استخدام الأداة</a>
+      </div>
+
+      <!-- أداة الحاسبة -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2607/2607544.png"  alt="حاسبة">
+        <h3>حاسبة</h3>
+        <p>استخدم الحاسبة العادية أو المتقدمة لحساب النسب والمقاييس.</p>
+        <a href="#" class="btn">استخدام الأداة</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    &copy; 2025 ToolBox ME. جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html>
